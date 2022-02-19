@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playout Trang Chủ</title>
+    <link rel="stylesheet" href="/a/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <div id="menu">
+            <div class="inder-head container1 header" id="myHeader">
+                <a href="/a/amthuc.html" id="logo">AMTVN</a>
+                <ul id="main_menu">
+                    <li><a href="/a/amthuc.html">TRANG CHỦ</a></li>
+                    <li><a href="#">KHU VỰC </a>
+                        <ul>
+                            <li><a href="/a/mienBac.html">Miền Bắc</a></li>
+                            <li><a href="/a/mientrung.html">Miền Trung</a></li>
+                            <li><a href="/a/niemnam.html">Miền Nam</a></li>
+                            <li><a href="/a/MienTay.html">Miền Tây</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/a/GioiThieu.html">GIỚI THIỆU </a></li>
+                    <li><a href="/a/phanhoi.html">PHẢN HỒI </a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </header>
+    <div id="banner"><img src="/a/images/Header_Moi.png" alt=""></div>
+    <div class="boxcenter">
+        <div class="main">
+            <div class="top">
+                <div class="top1">
+                    <a href="/a/mienBac.html" class="pictures"><img src="/a/images/mienbac.png" alt=""></a>
+                </div>
+                <div class="top2">
+                    <h1>MIỀN BẮC</h1>
+                    <p>Dung dị mà tinh tế như ẩm thực miền Bắc</p>
+                    <button class="bt1" href="/a/mienBac.html">Tìm hiểu ></button><br>
+                    <button class="bt2">Video giới thiệu</button>
+                </div>
+            </div>
+            <div class="mid">
+                <div class="mid1">
+                    <a href="/a/mienBac.html" class="pictures"><img src="/a/images/mientrung.jpg" alt=""></a>
+                </div>
+                <div class="mid2">
+                    <h1 class="ppm">MIỀN TRUNG</h1>
+                    <p class="ppm">Không quá cầu kỳ hay phô trương, hương vị đậm đà</p>
+                    <button class="m1">Tìm hiểu ></button><br>
+                    <button class="m2">Video giới thiệu</button>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom1">
+                    <a href="/a/niemnam.html" class="pictures"><img src="/a/images/miennam.jpg" alt=""></a>
+                </div>
+                <div class="bottom2">
+                    <h1>MIỀN NAM</h1>
+                    <p>Ẩm thực miền Nam mang chân chất, giản đơn </p>
+                    <button class="bt11" type="submit" >Tìm hiểu ></button><br>
+                    <button class="bt12">Video giới thiệu</button>
+                </div>
+            </div>
+            <div class="underbt">
+                <div class="underbt1">
+                    <a href="" class="pictures"><img src="/a/images/mientay.jpg" alt=""></a>
+                </div>
+                <div class="underbt2">
+                    <h1>MIỀN TÂY</h1>
+                    <p>Phong phú, dân dã như ẩm thực miền Tây Nam bộ</p>
+                    <button class="ud1">Tìm hiểu ></button><br>
+                    <button class="ud2">Video giới thiệu</button>
+                </div>
+            </div>
+            <div class="under3">
+                <h2>Tôn vinh ẩm thưc Việt</h2>
+                <p>Cùng nhau xây dựng nền ẩm thực nước nhà</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Thông tin liên lạc</h4>
+                    <ul>
+                        <li><a href="#">abcdef@hcm.com.vn</a></li> <br>
+                        <li><a href="#">Hotline: 1800 1929</a></li> <br>
+                        <li><a href="#">28/102B Lê Quý Đôn, Quận 1, TP Hồ Chí Minh</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Theo dõi chúng tôi</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Đặc sác hương vị</h4>
+                    <ul>
+                        <li><a href="#"><img src="/a/footer.jpg"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        // Get the header
+        var header = document.getElementById("myHeader");
+
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
